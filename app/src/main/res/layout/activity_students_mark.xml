@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="5dp"
+android:layout_marginTop="40dp"
+android:orientation="vertical">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:text="students_marks"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/purple_700"
+    android:textSize="20dp"
+    android:textStyle="bold">
+
+</TextView>
+
+<TableLayout
+    android:id="@+id/tabla_cuerpo"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name0"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:text="NAME"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mark_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cell_shape"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="MARK1"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mark2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:text="MARK2"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mark3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:text="MARK3"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:text="TOTAL"
+
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:hint="Name"
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mark_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/cell_shape"
+            android:gravity="center"
+            android:inputType="number"
+
+            android:padding="5dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mark2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:gravity="center"
+            android:inputType="number"
+
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mark3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:inputType="number"
+
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/total_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            >
+
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:hint="Name"
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mark1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:inputType="number"
+
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mark2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:inputType="number"
+
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/mak3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:inputType="number"
+            android:gravity="center"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/total_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            >
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</TableLayout>
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="SAVE"
+    android:id="@+id/button_save"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_gravity="bottom|right">
+
+</Button>
+
+
+</LinearLayout>
+
